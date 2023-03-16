@@ -163,7 +163,7 @@ header .follow a:hover{
     flex:1 1 40rem;
 }
 
-.home img{
+.home {
     width:100%;
 }
 .image
@@ -175,6 +175,11 @@ header .follow a:hover{
     flex:1 1 59rem;
     height: 700px;
     width: 400px;
+}
+.abt{
+    align-items: center;
+    height : 550px;
+    width : 410px;
 }
 
 .home .content{
@@ -220,7 +225,7 @@ header .follow a:hover{
     flex:1 1 25rem;
 }
 
-.about .row-1 .image img{
+.about .row-1 .image{
     height: 100%;
     width:100%;
     object-fit: cover;
@@ -444,7 +449,7 @@ header .follow a:hover{
     border-radius: .5rem;
 }
 
-.portfolio .box-container .box img{
+.portfolio .box-container .box {
     height:100%;
     width:100%;
     object-fit: cover;
@@ -453,7 +458,7 @@ header .follow a:hover{
     z-index: 1;
 }
 
-.portfolio .box-container .box:hover img{
+.portfolio .box-container .box:hover{
     height:75%;
     width:75%;
 }
