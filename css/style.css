@@ -10,7 +10,7 @@
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
     line-height: 1.5;
 }
@@ -191,13 +191,13 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
-.home .content h3{
+.home .content h2{
     font-size: 4.5rem;
     color:#111;
     /* text-transform: uppercase; */
 }
 
-.home .content h3 span{
+.home .content h2 span{
     color:var(--main-color);
     /* text-transform: uppercase; */
 }
@@ -243,7 +243,7 @@ header .follow a:hover{
     font-size: 3.5rem;
 }
 
-.about .row-1 .content p{
+.about .row-1 .content {
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
@@ -304,19 +304,19 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:95%;
-}
-
-.about .row-2 .skills .progress:nth-child(2) .bar span{
     width:80%;
 }
 
+.about .row-2 .skills .progress:nth-child(2) .bar span{
+    width:60%;
+}
+
 .about .row-2 .skills .progress:nth-child(3) .bar span{
-    width:75%;
+    width:70%;
 }
 
 .about .row-2 .skills .progress:nth-child(4) .bar span{
-    width:85%;
+    width:65%;
 }
 
 .about .row-2 .box-container{
@@ -327,6 +327,7 @@ header .follow a:hover{
 }
 
 .about .row-2 .box-container .box{
+    display: relative;
     flex:1 1 15rem;
     background:#fff;
     padding:2rem;
@@ -339,7 +340,7 @@ header .follow a:hover{
     font-size: 3rem;
 }
 
-.about .row-2 .box-container .box p{
+.about .row-2 .box-container .box {
     color:#666;
     font-size: 1.7rem;
     padding-top: .5rem;
@@ -394,6 +395,7 @@ header .follow a:hover{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;    
+    
 }
 
 .experience .box-container .box::before{
@@ -499,6 +501,7 @@ header .follow a:hover{
     gap:1.5rem;
     flex-wrap: wrap;
     padding-bottom: 2rem;
+    
 }
 
 .contact .icons-container .icons{
@@ -572,7 +575,7 @@ header .follow a:hover{
 
 .contact .row form .box::placeholder,
 .contact .row form textarea::placeholder{
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .contact .row form textarea{
