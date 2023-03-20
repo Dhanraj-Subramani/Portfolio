@@ -1,3 +1,3 @@
-# Visit  Developer's Portfolio <3
+# Visit  Developer's Portfolio
 
 https://dhanraj-subramani.github.io/Portfolio/
