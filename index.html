@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dhanraj's Portfolio</title>
+    <title>Dhanraj S</title>
     <link rel="icon" type="images/x-icon" href="images/professional-portfolio.png" />
 
     <!-- font awesome cdn link  -->
@@ -43,9 +43,8 @@
         <a href="https://twitter.com/dhanraj_sakthi" class="fab fa-twitter"></a>
         <a href="https://www.instagram.com/vincent_2.1/" class="fab fa-instagram"></a>
         <a href="https://www.linkedin.com/in/dhanrajsubramanik/" class="fab fa-linkedin"></a>
-        <a href="https://github.com/Dhanraj-Subramani" class="fab fa-github"></a>
         <a href="https://www.cloudskillsboost.google/public_profiles/aa156f74-967f-4a9c-a950-d445a273dd8f" class="fab fa-google"></a>
-        
+        <a href="https://github.com/Dhanraj-Subramani" class="fab fa-github"></a>
     </div>
 
 </header>
@@ -88,7 +87,7 @@
     </div>
 
     <div class="content">
-        <h3> I am Dhanraj<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+        <h3> I'm Dhanraj<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- An IT Guy</i></h5> </h3>
         <br>
@@ -185,7 +184,7 @@
             </div>
         </div>
         <br><br>
-        <a href="images\CV_DJ.pdf" class="btn">Download CV</a>
+        <a href="images\CV@DJ.pdf" class="btn">Download CV</a>
         <a href="#contact" class="btn">Hire me</a>
     </div>
 
@@ -511,16 +510,16 @@
 
 <section class="contact" id="contact">
 
-    <h1 class="heading"> Contact <span> Me </span> </h1>
+    <h1 class="heading" onclick="mail()"> Contact <span> Me </span> </h1>
 
-    <div class="icons-container">
+    <div class="icons-container" onclick="mail()">
 
-        <div class="icons">
-            <i class="fas fa-envelope"></i>
-            <h3>Email</h3>
-            <p>dhanrajsubramanik@gmail.com</p>
+        <div class="icons" onclick="mail()">
+            <i class="fas fa-envelope" onclick="mail()"></i>
+            <h3 onclick="mail()">Email</h3>
+            <p onclick="mail()">dhanrajsubramanik@gmail.com</p>
         </div>
-
+        
         <div class="icons">
             <i class="fas fa-phone"></i>
             <h3>Number</h3>
@@ -534,8 +533,13 @@
             <p>S/o Subramani K , No 76 , Eswaran Kovil Street,Avalpoondurai,Erode,<br>TamilNadu - 638115 </p>
         </div>
 
+
     </div>
-        
+    <script>
+        function mail() {
+            window.location.href = "mailto:recipient@example.com?subject=Hello&body=How are you?";
+        }
+    </script>        
     <div class="row">
         <!-- <form method="post" autocomplete="off" name="google-sheet">
             <div class="form-group">
