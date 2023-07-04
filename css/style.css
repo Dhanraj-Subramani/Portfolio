@@ -178,8 +178,8 @@ header .follow a:hover{
 }
 .abt{
     align-items: center;
-    height : 550px;
-    width : 410px;
+    height : 100%;
+    width : 100%; 
 }
 
 .home .content{
