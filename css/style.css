@@ -304,11 +304,11 @@ header .follow a:hover{
 }
 
 .about .row-2 .skills .progress:nth-child(1) .bar span{
-    width:80%;
+    width:85%;
 }
 
 .about .row-2 .skills .progress:nth-child(2) .bar span{
-    width:60%;
+    width:80%;
 }
 
 .about .row-2 .skills .progress:nth-child(3) .bar span{
