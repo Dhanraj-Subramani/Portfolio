@@ -415,7 +415,7 @@ header .follow a:hover{
     border-radius: .5rem;
 }
 
-.experience .box-container .box .content span{
+.experience .box-container .box span{
     color:#fff;
     font-size: 1.7rem;
     background:var(--main-color);
