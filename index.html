@@ -91,7 +91,33 @@
                         </td>
                         <td>:</td>
                         <td>
-                            20 
+                            <span id="age"></span>
+
+    <script>
+        // Function to calculate age
+        function calculateAge(birthdate) {
+            const today = new Date();
+            const birthDate = new Date(birthdate);
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDifference = today.getMonth() - birthDate.getMonth();
+
+            // Adjust age if the birthdate hasn't occurred yet this year
+            if (monthDifference < 0 || (monthDifference === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+
+            return age;
+        }
+
+        // Set the birthdate
+        const birthdate = '2002-11-04'; // Format: YYYY-MM-DD
+
+        // Calculate age
+        const age = calculateAge(birthdate);
+
+        // Display the age
+        document.getElementById('age').textContent = age;
+    </script>
                         </td>
                     </tr>
                     <tr>
@@ -114,11 +140,11 @@
                     </tr>
                     <tr>
                         <td>
-                            <span> Current Status </span> 
+                            <span> Designation </span> 
                         </td>
                         <td>:</td>
                         <td>
-                            Student
+                            System Engineer at TCS
                         </td>
                     </tr>
                      <tr>
@@ -399,14 +425,14 @@
 <!--             </div> -->
         </a>
         </div>
-
+<!--
         <div class="box">
 <!--             <div class="content"> -->
                 <span> 2023 </span>
                 <h3>Vocabulary Game</h3>
                 <p><a href="https://dhanraj-subramani.github.io/Games/"  target="_blank">play</a></p>
 <!--             </div> -->
-        </div>
+        </div> -->
     </div>
 
 </section>
